@@ -1,0 +1,75 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: white;
+    background: url(foliage.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-header{
+    flex: 1;
+}
+.main-header-content{
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(46, 46, 46, 0.7);
+}
+.main-footer{
+    text-align: center;
+    margin-bottom: auto;
+}
+
+
+.aside{
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+.aside-form-container{
+    width: 100%;
+    padding: 5%;
+    background-color: white;
+}
+.aside-form-container h2{
+    margin: 0;
+    padding-bottom: 5%;
+}
+.aside-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.aside-form-grid-cell{
+    display: flex;
+    flex-direction: row;
+}
+.aside-form-grid-cell div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 1% 0 1% 0;
+}
+.aside-form-grid-cell div input{
+    width: 75%;
+    margin: 0;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 2% 0 2% 1.5%;
+}
