@@ -66,10 +66,24 @@ body{
     width: 50%;
     margin: 1% 0 1% 0;
 }
-.aside-form-grid-cell div input{
+.aside-form-grid-input{
     width: 75%;
     margin: 0;
     border: 1px solid #E5E7EB;
     border-radius: 3px;
     padding: 2% 0 2% 1.5%;
+}
+.aside-form-grid-input:focus{
+    border: 1px solid lightblue;
+}
+.error{
+    border: 1px solid red;
+}
+#aside-form-submitBtn{
+    color: white;
+    width: 150px;
+    background-color: #596D48;
+    padding: 2% 0 2% 0;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
